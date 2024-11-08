@@ -4,7 +4,7 @@ import httpx
 # Max number of versions to be fetched in each version branch
 MAX_ALLOWED_VERSIONS = 3
 VERSIONS_API = "https://downloads.mariadb.org/rest-api/mariadb/"
-VERSION_RESOURCE_API = f"https://downloads.mariadb.org/rest-api/mariadb/{{version.replace(' ', '%20')}}/"
+VERSION_RESOURCE_API = f"https://downloads.mariadb.org/rest-api/mariadb/{{version}}/"
 oneinstack_compatible_versions = ["5.5", "10.5", "10.4", "10.11"]
 
 
